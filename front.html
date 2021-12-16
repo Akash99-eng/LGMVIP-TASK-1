@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="frontstyle.css">
+    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Convergence&family=Fredoka+One&family=Palanquin+Dark&family=Poppins:wght@500&family=Ubuntu&display=swap" rel="stylesheet">
+    
+    <title>Apni Class</title>
+
+    <!------------------------****************************************** Javascript part ***************************************************----------------------->
+    <script>
+function chnage(){
+    document.querySelector("body").style.background="black";
+    document.querySelector("#quotes").style.color="white";
+    document.querySelector("#line_2").style.color="white";
+
+}
+function gone(){
+
+document.querySelector("body").style.background="#abfdfd";
+    document.querySelector("#quotes").style.color="black";
+    document.querySelector("#line_2").style.color="black";
+}
+
+
+
+    </script>
+</head>
+<body>
+    <div class="maincont">
+     <div class="logo"><img id="logoro" src="class.png"><h11>APNI CLASS</h11> </div>
+     <div class="menu">
+        <button type="button"  ondblclick="gone()" onclick="chnage()"><img class="icon" src="mode.png"></button>
+        <a href="#"><button type="button">Home</button></a>
+        <a href="#"><button type="button">About</button></a>
+        <a href="#"><button type="button">Collection</button></a>
+        <a href="#"><button type="button">Log-in</button></a>
+    <input type="text"  id="inputhold" placeholder="    Serach..."></div>
+
+    </div>
+    <div class="loweritem"><img id="bigimg" src="chery.png">
+    <p id="quotes"> Life Would be Much Easier if <br>i Had Source<code> Code </code>!</p>
+<p1 id="line_2">“Perfection is achieved not when there is<code> nothing</code> more to add, <br>but rather when there is nothing more to take away.Experience is the name everyone gives to their <code>mistakes</code>.”</p1></div>
+    <div class="btndown">
+     <button type="button" id="btn_1">HTML</button>
+         <button type="button" id="btn_2">CSS</button>
+        <button type="button"  id="btn_3">JAVASCRIPT</button>
+         <button type="button" id="btn_4">MORE</button>
+    </div>
+    <div class="container">
+        <div class="cont_1"><h1>PHP</h1><h4>A Web Server programing Language</h4>
+       <a href="#"> <button class="hphbtn">Learn PHP</button></a></div>
+        <div class="cont_2"><h1 id="bootstrap">Bootstrap<h1><h4>A CSS framework for designing better web pages</h4>
+           <a href="#"> <button class="hphbtn">Learn Bootstrap</button></a></div>
+    </div>
+    <div class="container">
+        <div id="first_1" class="cont_1"><h1>jQuery</h1><h4>A JS library for developing web pages</h4>
+           <a href="#"> <button class="hphbtn">Learn jQuery</button></a></div>
+        <div id="second_2" class="cont_2"><h1>Java</h1><h4 id > server-side language for most back-end development </h4>
+           <a href="#"> <button class="hphbtn">Learn Java</button></a></div>
+    </div>
+    <div class="lastcontainer">
+       <a href="#"> <button id="more_btn" type="button">Learn More</button></a>
+    </div>
+    
+</body>
+</html>
